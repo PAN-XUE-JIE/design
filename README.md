@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/PAN-XUE-JIE/design/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PAN-XUE-JIE/design/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 界面设计 根据尼尔森用户体验原则对音乐应用——MOO分析
+> 在 MOO 中，所有音乐都被打上了合适的标签，你可以分类浏览喜欢的风格，或者在 QQ 音乐的庞大曲库内随心搜索。
+### 根据尼尔森用户体验十大原则进行分析
+#### 一、系统状态可视化
+* 在哪里你都能知道自己的准确位置，播放界面或者是个人主页等等。 在界面的正上方都会有白色字体告诉你当前的位置信息。
+* 当你在播放歌曲，但在其他任何页面而不是在播放页面时，下面的碟片都会显示目前播放的分秒数，可以清晰地感知到播放状态。
+![系统状态可视化截图]()
+#### 二、不脱离现实
+* 使用用户熟悉的语言和概念进行设计；遵循现实生活中的基本规律，信息的显示自然而有逻辑。 播放键（三角形）、喜欢（心形）、更多（省略号）等等，都是符合用户日常的基本规律的。
+* 操作符合用户直觉，页面滑动的时候，右上角会有渐变的状态，在播放页面向左滑动，没有页面时依然会有提示性的过渡动画（截图显示不清，但歌曲故事的阴影充分显示了这一点）
+![不脱离现实]()
+#### 三、用户拥有自由控制权
+* 用户可以满足建立、导入歌单和听歌的基本需要以及删除听歌历史的记录
+* 在合理的范围内用户可以自由的选择操作任务；操作进行时应顺畅的引导，出错时用户可以方便的回退。 用户有需要可以进行深色、浅色模式的转换；播放原件可以通过简单左滑、右滑切换歌曲等操作。
+![用户拥有自由控制权]()
+#### 四、一致性
+1. 一致性：使用的都是用户惯常使用图标，比如心形，省略号。整个APP页面都是黑色、白色和黄色三种颜色风格
+2. 灵活性和使用效率：界面中的功能引导十分简单：白色的按键有：播放/暂停、收藏、更多；黄色的按键是：歌曲相关的标签，用户可以为歌曲添加故事，增加用户参与感
+3. 美观和极简的设计：
+* 在页面左上角文字Play的下方出现两点，暗示用户还有下一页 ，可以滑到到下一页。
+* 在音乐播放的时候，底部会出现波浪条，这些波浪条会根据歌曲旋律的变化而变化，使整个APP更加美观
+* 该页面还能根据音乐的旋律更换不同的背景图，使背景图符合歌曲的意境
+> 不足：没有标识指明给用户，可以通过上下滑动来切换歌曲
+![一致性]()
+#### 五、帮助用户发现、诊断和纠正错误
+* 出错提示需用简洁明了的语言，不得包含技术性词语。 在修改个人信息界面，我修改昵称出现非法昵称的时候，会出现简洁明了的提示字眼。 
+* 当用户出现一些基本操作失误，有基本的帮助和反馈页面，用户可以自行反馈或者反馈开发者
+![帮助用户发现、诊断和纠正错误]()
+#### 六、帮助用户识别而非记忆
+* 专辑页面突出显示了专辑图片，以及专辑所属的音乐标签，而搜索过的歌曲名会有搜索历史的保存，导入歌曲时，也会有相关的粘贴提醒
+![帮助用户识别而非记忆]()
